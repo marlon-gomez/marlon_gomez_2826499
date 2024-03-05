@@ -2,20 +2,13 @@ package co.edu.sena.soy.oop;
 
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
     {
         Scanner scr = new Scanner(System.in);
 
-        double numero1 = 0;
-        double numero2 = 0;
-        double numero3 = 0;
-        double nuemro4 = 0;
+        double numero1, numero2, numero3, numero4 = 0;
 
         Data data = new Data();
 
@@ -32,11 +25,8 @@ public class App
             System.out.println("Ingrese una opcion:");
             opcion = scr.nextInt();
 
-
-                
-           
             if (opcion == 1) {//operadores
-                while (opcion != 9) {
+                while (opcion != 9) { //Submenu operadores
                     System.out.println("|------------------------------------------|");
                     System.out.println("Categoria operadores");
                     System.out.println("|------------------------------------------|");
@@ -146,7 +136,7 @@ public class App
                     }{ //sumar dos numeros
                         
                     }//areatriangulo
-                }
+                }//Submenu operadores
 
             } else if (opcion == 2) {//condicionales
                 System.out.println("condicionales");
