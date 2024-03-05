@@ -119,23 +119,7 @@ public class App
                         System.out.println("El promedio es:" + data.promedio(numero1, numero2, numero3));
                     } else if (opcion == 9) {
                         System.out.println("Regresando");
-                    }{//regresar
-                        
-                    }{//promedio
-                        
-                    }{//area y longitud
-                        
-                    }{//arae y volumen
-                        
-                    }{//area y perimetro
-                        
-                    } {// conversor de moneda
-                        
-                    }{//elevar un nuemro al cuadrado
-                        
-                    }{ //sumar dos numeros
-                        
-                    }//areatriangulo
+                    }
                 }//Submenu operadores
 
             } else if (opcion == 2) {//condicionales
@@ -145,13 +129,7 @@ public class App
                 System.out.println("ciclos");
             } else if (opcion == 99) { //salir
                 System.out.println("salir del sistema");
-            }{ //salida
-                
-            }{ //ciclos
-                
-            }{ //condicionales
-                
-            } //operadores
+            }
         } //menu
     }//metodo
 } //clase
